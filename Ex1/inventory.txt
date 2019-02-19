@@ -1,0 +1,184 @@
+                                                                    levelName      n
+1   #                                                                               
+2    ¦--living                                                                      
+3    ¦   ¦--Eukaryota                                                               
+4    ¦   ¦   ¦--Harosa                                                              
+5    ¦   ¦   ¦   ¦--Alveolata                                                       
+6    ¦   ¦   ¦   ¦   °--Myzozoa                                                     
+7    ¦   ¦   ¦   ¦       °--Holodinophyta                                           
+8    ¦   ¦   ¦   ¦           °--Dinophyceae                                         
+9    ¦   ¦   ¦   ¦               ¦--Gonyaulacales                                   
+10   ¦   ¦   ¦   ¦               ¦   °--Ceratiaceae                                 
+11   ¦   ¦   ¦   ¦               ¦       °--Neoceratium                          654
+12   ¦   ¦   ¦   ¦               °--Noctilucales                                    
+13   ¦   ¦   ¦   ¦                   °--4                                           
+14   ¦   ¦   ¦   ¦                       °--Noctilucaceae                           
+15   ¦   ¦   ¦   ¦                           °--Noctiluca                       6728
+16   ¦   ¦   ¦   ¦--Rhizaria                                                        
+17   ¦   ¦   ¦   ¦   ¦--Cercozoa                                                    
+18   ¦   ¦   ¦   ¦   ¦   °--Thecofilosea                                            
+19   ¦   ¦   ¦   ¦   ¦       °--Phaeodaria                                     17145
+20   ¦   ¦   ¦   ¦   °--Retaria                                                     
+21   ¦   ¦   ¦   ¦       ¦--Acantharea                                           762
+22   ¦   ¦   ¦   ¦       ¦--Foraminifera                                        6188
+23   ¦   ¦   ¦   ¦       °--Polycystinea                                            
+24   ¦   ¦   ¦   ¦           °--Spumellaria                                      156
+25   ¦   ¦   ¦   °--Stramenopiles                                                   
+26   ¦   ¦   ¦       °--Ochrophyta                                                  
+27   ¦   ¦   ¦           °--Bacillariophyta                                         
+28   ¦   ¦   ¦               °--Coscinodiscophytina                                 
+29   ¦   ¦   ¦                   °--Coscinodiscids                                  
+30   ¦   ¦   ¦                       °--Coscinodiscus                          14040
+31   ¦   ¦   °--Opisthokonta                                                        
+32   ¦   ¦       °--Holozoa                                                         
+33   ¦   ¦           °--Metazoa                                                     
+34   ¦   ¦               ¦--Annelida                                            2315
+35   ¦   ¦               ¦   ¦--larvae                                           188
+36   ¦   ¦               ¦   °--Polychaeta                                          
+37   ¦   ¦               ¦       °--Errantia                                        
+38   ¦   ¦               ¦           °--Tomopteridae                             190
+39   ¦   ¦               ¦--Arthropoda                                              
+40   ¦   ¦               ¦   °--Crustacea                                           
+41   ¦   ¦               ¦       ¦--Branchiopoda                                    
+42   ¦   ¦               ¦       ¦   °--Diplostraca                                 
+43   ¦   ¦               ¦       ¦       °--Cladocera                               
+44   ¦   ¦               ¦       ¦           ¦--Podonidae                           
+45   ¦   ¦               ¦       ¦           ¦   ¦--Evadne                     21359
+46   ¦   ¦               ¦       ¦           ¦   °--Podon                       1472
+47   ¦   ¦               ¦       ¦           °--Sididae                             
+48   ¦   ¦               ¦       ¦               °--Penilia                     7074
+49   ¦   ¦               ¦       ¦--larvae                                       708
+50   ¦   ¦               ¦       ¦--Malacostraca                                    
+51   ¦   ¦               ¦       ¦   °--Eumalacostraca                              
+52   ¦   ¦               ¦       ¦       ¦--Amphipoda                               
+53   ¦   ¦               ¦       ¦       ¦   ¦--Gammaridea                       321
+54   ¦   ¦               ¦       ¦       ¦   °--Hyperiidea                       594
+55   ¦   ¦               ¦       ¦       ¦--Decapoda                            3930
+56   ¦   ¦               ¦       ¦       ¦   ¦--Dendrobranchiata                    
+57   ¦   ¦               ¦       ¦       ¦   ¦   °--Sergestoidea                    
+58   ¦   ¦               ¦       ¦       ¦   ¦       °--Luciferidae              507
+59   ¦   ¦               ¦       ¦       ¦   ¦--Pleocyemata                         
+60   ¦   ¦               ¦       ¦       ¦   ¦   ¦--Anomura                         
+61   ¦   ¦               ¦       ¦       ¦   ¦   ¦   °--Galatheidae                 
+62   ¦   ¦               ¦       ¦       ¦   ¦   ¦       °--zoea                 205
+63   ¦   ¦               ¦       ¦       ¦   ¦   °--Brachyura                   5292
+64   ¦   ¦               ¦       ¦       ¦   ¦       °--megalopa                1057
+65   ¦   ¦               ¦       ¦       ¦   °--zoea                            6423
+66   ¦   ¦               ¦       ¦       °--Euphausiacea                            
+67   ¦   ¦               ¦       ¦           °--calyptopsis                     4332
+68   ¦   ¦               ¦       ¦--Maxillopoda                                     
+69   ¦   ¦               ¦       ¦   ¦--Copepoda                                    
+70   ¦   ¦               ¦       ¦   ¦   ¦--badfocus                             881
+71   ¦   ¦               ¦       ¦   ¦   ¦--Calanoida                         241495
+72   ¦   ¦               ¦       ¦   ¦   ¦   ¦--Acartiidae                     46772
+73   ¦   ¦               ¦       ¦   ¦   ¦   ¦--Aetideidae                          
+74   ¦   ¦               ¦       ¦   ¦   ¦   ¦   °--Euchirella                   172
+75   ¦   ¦               ¦       ¦   ¦   ¦   ¦--Augaptilidae                        
+76   ¦   ¦               ¦       ¦   ¦   ¦   ¦   °--Haloptilus                  4425
+77   ¦   ¦               ¦       ¦   ¦   ¦   ¦--Calanidae                      26441
+78   ¦   ¦               ¦       ¦   ¦   ¦   ¦--Candaciidae                     2203
+79   ¦   ¦               ¦       ¦   ¦   ¦   ¦--Centropagidae                   4877
+80   ¦   ¦               ¦       ¦   ¦   ¦   ¦--Eucalanidae                     4679
+81   ¦   ¦               ¦       ¦   ¦   ¦   ¦--Euchaetidae                     2316
+82   ¦   ¦               ¦       ¦   ¦   ¦   ¦--Paracalanidae                       
+83   ¦   ¦               ¦       ¦   ¦   ¦   ¦   °--Calocalanus                     
+84   ¦   ¦               ¦       ¦   ¦   ¦   ¦       °--Calocalanus pavo         236
+85   ¦   ¦               ¦       ¦   ¦   ¦   ¦--Pontellidae                     1431
+86   ¦   ¦               ¦       ¦   ¦   ¦   ¦--Rhincalanidae                   1344
+87   ¦   ¦               ¦       ¦   ¦   ¦   °--Temoridae                       9110
+88   ¦   ¦               ¦       ¦   ¦   ¦--Cyclopoida                              
+89   ¦   ¦               ¦       ¦   ¦   ¦   °--Oithonidae                     59317
+90   ¦   ¦               ¦       ¦   ¦   ¦--Harpacticoida                       2875
+91   ¦   ¦               ¦       ¦   ¦   ¦--multiple                            2908
+92   ¦   ¦               ¦       ¦   ¦   ¦--part                                 412
+93   ¦   ¦               ¦       ¦   ¦   °--Poecilostomatoida                       
+94   ¦   ¦               ¦       ¦   ¦       ¦--Corycaeidae                    11118
+95   ¦   ¦               ¦       ¦   ¦       ¦--Oncaeidae                      12766
+96   ¦   ¦               ¦       ¦   ¦       °--Sapphirinidae                   1474
+97   ¦   ¦               ¦       ¦   ¦           °--Copilia                      762
+98   ¦   ¦               ¦       ¦   °--Thecostraca                                 
+99   ¦   ¦               ¦       ¦       °--Cirripedia                              
+100  ¦   ¦               ¦       ¦           ¦--cirrus                           297
+101  ¦   ¦               ¦       ¦           ¦--cypris                           702
+102  ¦   ¦               ¦       ¦           °--nauplii                         6226
+103  ¦   ¦               ¦       ¦--metanauplii                                  186
+104  ¦   ¦               ¦       ¦--nauplii                                     9334
+105  ¦   ¦               ¦       °--Oligostraca                                     
+106  ¦   ¦               ¦           °--Ostracoda                              14392
+107  ¦   ¦               ¦--Bryozoa                                                 
+108  ¦   ¦               ¦   °--cyphonaute                                      9125
+109  ¦   ¦               ¦--Chaetognatha                                       36829
+110  ¦   ¦               ¦   ¦--head                                             270
+111  ¦   ¦               ¦   °--tail                                            3137
+112  ¦   ¦               ¦--Chordata                                                
+113  ¦   ¦               ¦   ¦--Craniata                                            
+114  ¦   ¦               ¦   ¦   °--Vertebrata                                      
+115  ¦   ¦               ¦   ¦       °--Gnathostomata                               
+116  ¦   ¦               ¦   ¦           °--Actinopterygii                      1621
+117  ¦   ¦               ¦   ¦               ¦--egg                             2208
+118  ¦   ¦               ¦   ¦               °--scale                            640
+119  ¦   ¦               ¦   °--Tunicata                                            
+120  ¦   ¦               ¦       ¦--Appendicularia                                  
+121  ¦   ¦               ¦       ¦   ¦--Fritillariidae                          2570
+122  ¦   ¦               ¦       ¦   ¦--Oikopleuridae                          20507
+123  ¦   ¦               ¦       ¦   °--tail                                    5119
+124  ¦   ¦               ¦       °--Thaliacea                                       
+125  ¦   ¦               ¦           ¦--Doliolida                               3602
+126  ¦   ¦               ¦           ¦--Pyrosomatida                             372
+127  ¦   ¦               ¦           °--Salpida                                 7772
+128  ¦   ¦               ¦--Cnidaria                                                
+129  ¦   ¦               ¦   ¦--Hydrozoa                                            
+130  ¦   ¦               ¦   ¦   ¦--Hydroidolina                                    
+131  ¦   ¦               ¦   ¦   ¦   ¦--Leptothecata                                
+132  ¦   ¦               ¦   ¦   ¦   ¦   °--Campanulariidae                         
+133  ¦   ¦               ¦   ¦   ¦   ¦       °--Obelia                          1211
+134  ¦   ¦               ¦   ¦   ¦   °--Siphonophorae                               
+135  ¦   ¦               ¦   ¦   ¦       ¦--Calycophorae                            
+136  ¦   ¦               ¦   ¦   ¦       ¦   ¦--Abylidae                            
+137  ¦   ¦               ¦   ¦   ¦       ¦   ¦   °--Abylopsis                       
+138  ¦   ¦               ¦   ¦   ¦       ¦   ¦       °--Abylopsis tetragona         
+139  ¦   ¦               ¦   ¦   ¦       ¦   ¦           ¦--eudoxie              259
+140  ¦   ¦               ¦   ¦   ¦       ¦   ¦           ¦--gonophore             96
+141  ¦   ¦               ¦   ¦   ¦       ¦   ¦           °--nectophore           208
+142  ¦   ¦               ¦   ¦   ¦       ¦   °--Diphyidae                           
+143  ¦   ¦               ¦   ¦   ¦       ¦       ¦--eudoxie                     3455
+144  ¦   ¦               ¦   ¦   ¦       ¦       ¦--gonophore                   3398
+145  ¦   ¦               ¦   ¦   ¦       ¦       °--nectophore                  5643
+146  ¦   ¦               ¦   ¦   ¦       °--Physonectae                             
+147  ¦   ¦               ¦   ¦   ¦           °--nectophore                      1159
+148  ¦   ¦               ¦   ¦   °--Trachylina                                      
+149  ¦   ¦               ¦   ¦       °--Trachymedusae                               
+150  ¦   ¦               ¦   ¦           °--Rhopalonematidae                        
+151  ¦   ¦               ¦   ¦               ¦--Aglaura                          430
+152  ¦   ¦               ¦   ¦               °--Rhopalonema                      342
+153  ¦   ¦               ¦   °--Scyphozoa                                         86
+154  ¦   ¦               ¦       °--ephyra                                       108
+155  ¦   ¦               ¦--Ctenophora                                            39
+156  ¦   ¦               ¦--Echinodermata                                           
+157  ¦   ¦               ¦   ¦--Echinoidea                                       258
+158  ¦   ¦               ¦   °--Ophiuroidea                                     1427
+159  ¦   ¦               °--Mollusca                                                
+160  ¦   ¦                   ¦--Bivalvia                                        4350
+161  ¦   ¦                   °--Gastropoda                                          
+162  ¦   ¦                       °--Heterobranchia                                  
+163  ¦   ¦                           °--Euthyneura                                  
+164  ¦   ¦                               ¦--Euopisthobranchia                       
+165  ¦   ¦                               ¦   °--Thecosomata                         
+166  ¦   ¦                               ¦       ¦--Cavoliniidae                2795
+167  ¦   ¦                               ¦       ¦   °--Cavolinia                   
+168  ¦   ¦                               ¦       ¦       °--Cavolinia inflexa       
+169  ¦   ¦                               ¦       ¦           °--egg              841
+170  ¦   ¦                               ¦       ¦--Creseidae                   2075
+171  ¦   ¦                               ¦       °--Limacinidae                11152
+172  ¦   ¦                               °--Panpulmonata                            
+173  ¦   ¦                                   °--Limacidae                        807
+174  ¦   °--other                                                                   
+175  ¦       ¦--egg                                                            16443
+176  ¦       ¦--multiple                                                       13617
+177  ¦       °--seaweed                                                         1832
+178  °--not-living                                                                  
+179      ¦--artefact                                                            3849
+180      ¦   ¦--badfocus                                                      100668
+181      ¦   °--bubble                                                         11669
+182      °--detritus                                                          511700
+183          °--fiber                                                          68798
