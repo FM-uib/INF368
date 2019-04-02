@@ -1,0 +1,5 @@
+load annotation files and convert to one large file
+reorder colums and add filepath to df (fp, x1, y1, x2, y2, class)
+try keras frcnn on small dataset
+
+implement tf records or other generator
