@@ -1,5 +1,9 @@
 .ipynb_checkpoints
 Ex1/data
 Ex2/out
-Ex2/keras-frcnn/imgs
+Ex2/keras_frcnn/imgs
+Ex2/keras_frcnn/timgs
+Ex2/keras_frcnn/results_imgs
+Ex2/keras_frcnn/model_frcnn.hdf5
+Ex2/keras_frcnn/model_frcnn_best_acc.hdf5
 Ex2/.ipynb_checkpoints
