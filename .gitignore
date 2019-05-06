@@ -7,3 +7,9 @@ Ex2/keras_frcnn/results_imgs
 Ex2/keras_frcnn/model_frcnn.hdf5
 Ex2/keras_frcnn/model_frcnn_best_acc.hdf5
 Ex2/.ipynb_checkpoints
+Ex3/.ipynb_checkpoints
+Ex3/plankton_siamese/data
+Ex3/plankton_siamese/Euc
+Ex3/plankton_siamese/train
+Ex3/plankton_siamese/validate
+Ex3/plankton_siamese/test
