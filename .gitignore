@@ -13,3 +13,5 @@ Ex3/plankton_siamese/Euc
 Ex3/plankton_siamese/train
 Ex3/plankton_siamese/validate
 Ex3/plankton_siamese/test
+Ex3/plankton_siamese/models
+Ex3/plankton_siamese/__pycache__

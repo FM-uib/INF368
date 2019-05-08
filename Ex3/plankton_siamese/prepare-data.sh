@@ -1,10 +1,12 @@
 
 # sort data into train/validate/test directories
 SET="train validate test"
+dirs="frax pauc stell"
+echo $SET
 
 tmp=$(mktemp)
 
-while read dir; do 
+for dir in $dirs; do 
     echo $dir
     for s in $SET; do 
         mkdir -p "$s/$dir"

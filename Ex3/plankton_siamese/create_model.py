@@ -31,7 +31,7 @@ def create_sphere_network(input_dim):
 # This is just for testing - Inception takes forever to set up in Tensorflow
 def create_trivial(input_dim):
     base_model = Sequential()
-	base_model.add(Flatten(input_shape = input_dim))
+    base_model.add(Flatten(input_shape = input_dim))
     base_model.add(Dense(256))
     base_model.add(Activation('relu'))
     base_model.add(Dense(out_dim))

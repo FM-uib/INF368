@@ -34,10 +34,11 @@ if last==0:
     log('Creating base network from scratch.')
     if not os.path.exists('models'):
         os.makedirs('models')
-	if trivial:
-		base_model = create_trivial(in_dim)
-	else:
-		base_model = create_base_network(in_dim)
+        print(C.trivial)
+        if C.trivial:
+            base_model = create_trivial(in_dim)
+        else:
+            base_model = create_base_network(in_dim)
 else:
     log('Loading model:'+save_name(last))
     base_model = load_model(save_name(last))
