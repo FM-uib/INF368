@@ -6,7 +6,7 @@ from keras.optimizers import SGD
 
 import os
 
-from create_model import create_base_network, in_dim, tripletize, std_triplet_loss, create_trivial
+from create_model import create_base_network, in_dim, tripletize, std_triplet_loss, create_trivial, alt_triplet_loss
 from generators import triplet_generator
 import testing as T
 
@@ -26,7 +26,7 @@ logger = CSVLogger(C.logfile, append=True, separator='\t')
 
 def train_step():
     model.fit_generator(
-        triplet_generator(C.batch_size, None, C.train_dir), steps_per_epoch=1000, epochs=C.iterations,
+        triplet_generator(C.batch_size, None, C.train_dir), steps_per_epoch=100, epochs=C.iterations,
         callbacks=[logger],
         validation_data=triplet_generator(C.batch_size, None, C.val_dir), validation_steps=100)
 
@@ -45,7 +45,7 @@ else:
 
 model = tripletize(base_model)
 model.compile(optimizer=SGD(lr=C.learn_rate, momentum=0.9),
-              loss=std_triplet_loss())
+              loss=alt_triplet_loss())
 
 def avg(x):
     return sum(x)/len(x)
@@ -55,8 +55,8 @@ cents = {}
 for v in vs:
     cents[v] = T.centroid(vs[v])
 
-for i in range(last+1, last+11):
-    log('Starting iteration '+str(i)+'/'+str(last+10)+' lr='+str(C.learn_rate))
+for i in range(last+1, last+5): # last +11
+    log('Starting iteration '+str(i)+'/'+str(last+4)+' lr='+str(C.learn_rate)) # last +10
     train_step()
     C.learn_rate = C.learn_rate * C.lr_decay
     base_model.save(save_name(i))

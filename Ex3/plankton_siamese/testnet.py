@@ -12,4 +12,4 @@ model = load_model(sys.argv[1])
 
 # print(T.knn_test(model, rdir=sys.argv[2], tdir=sys.argv[3], k=5))
 
-T.run_test(model, sys.argv[2])
+T.run_test(model)

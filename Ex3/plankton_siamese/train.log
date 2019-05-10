@@ -1,6 +1,90 @@
 Creating base network from scratch.
+Starting iteration 1/4 lr=0.01
+0	4.979138240814209	5.0
+1	5.0	5.0
+2	5.0	5.0
+3	5.0	5.0
+4	5.0	5.0
+Summarizing 1
+Centroid radius: [0.0, 0.0, 0.0]
+Centroid moved: [4.19, 4.18, 4.18]
+Accuracy: 0.617
+Avg centr rad: 0.00 move: 4.18
+Starting iteration 2/4 lr=0.009000000000000001
+0	5.0	5.0
+1	5.0	5.0
+2	5.0	5.0
+3	5.0	5.0
+4	5.0	5.0
+Summarizing 2
+Centroid radius: [0.0, 0.0, 0.0]
+Centroid moved: [0.0, 0.0, 0.0]
+Accuracy: 0.617
+Avg centr rad: 0.00 move: 0.00
+Starting iteration 3/4 lr=0.008100000000000001
+0	5.0	5.0
+1	5.0	5.0
+2	5.0	5.0
+3	5.0	5.0
+4	5.0	5.0
+Summarizing 3
+Centroid radius: [0.0, 0.0, 0.0]
+Centroid moved: [0.0, 0.0, 0.0]
+Accuracy: 0.617
+Avg centr rad: 0.00 move: 0.00
+Starting iteration 4/4 lr=0.007290000000000001
+0	5.0	5.0
+1	5.0	5.0
+2	5.0	5.0
+3	5.0	5.0
+4	5.0	5.0
+Summarizing 4
+Centroid radius: [0.0, 0.0, 0.0]
+Centroid moved: [0.0, 0.0, 0.0]
+Accuracy: 0.617
+Avg centr rad: 0.00 move: 0.00
 Creating base network from scratch.
-Creating base network from scratch.
-Creating base network from scratch.
-Starting iteration 1/10 lr=0.01
-0	4.995123925209046	5.004999094009399
+Starting iteration 1/4 lr=0.01
+0	1.7302696853876114	1.3407407400012017
+1	0.8837034376338124	4.959662437438965
+2	0.6435114379040897	1.3376302400231361
+3	0.5195052704028785	0.8198656028881669
+4	0.5079458042327315	0.49674919339828194
+Summarizing 1
+Centroid radius: [0.26, 0.17, 0.13]
+Centroid moved: [2.03, 2.59, 2.86]
+Accuracy: 0.967
+Avg centr rad: 0.19 move: 2.49
+Starting iteration 2/4 lr=0.009000000000000001
+0	0.45256195484660566	0.3528610645886511
+1	0.32011385788209734	1.47483258664608
+2	0.29569716651458294	0.27705487905070186
+3	0.3004453593492508	0.3344102248176932
+4	0.21974458180367948	0.6427171439677477
+Summarizing 2
+Centroid radius: [0.12, 0.44, 0.12]
+Centroid moved: [0.42, 0.31, 0.49]
+Accuracy: 0.950
+Avg centr rad: 0.23 move: 0.41
+Starting iteration 3/4 lr=0.008100000000000001
+0	0.22402915610466154	1.0989672556519507
+1	0.19678788258228452	0.4717173305526376
+2	0.23133714186958967	0.27724462816957385
+3	0.20046503215795383	2.669444385766983
+4	0.1663412643224001	0.8342727194726467
+Summarizing 3
+Centroid radius: [0.15, 0.49, 0.08]
+Centroid moved: [0.22, 0.26, 0.27]
+Accuracy: 0.960
+Avg centr rad: 0.24 move: 0.25
+Starting iteration 4/4 lr=0.007290000000000001
+0	0.09255530142690986	0.8981155508756637
+1	0.16564484785543754	0.2952601203415543
+2	0.12129944583401084	0.38848675567656754
+3	0.1303733453922905	0.30427614810178055
+4	0.12972944111330434	0.3181214003264904
+Summarizing 4
+Centroid radius: [0.11, 0.11, 0.06]
+Centroid moved: [0.15, 0.42, 0.38]
+Accuracy: 0.983
+Avg centr rad: 0.09 move: 0.32

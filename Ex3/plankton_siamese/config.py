@@ -3,7 +3,7 @@ train_dir = 'train'
 val_dir   = 'validate'
 test_dir  = 'test'
 
-trivial = True
+trivial = False
 batch_size = 20
 logfile    = 'train.log'
 

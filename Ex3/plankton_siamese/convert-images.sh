@@ -6,7 +6,7 @@ shopt -s failglob
 # resize to 299x299, but keep image size
 # drop -resize if zooming with crop is better (but maybe not?)
 
-BASE=Euc  #ZooScanSet/imgs
+BASE=ZooScanSet/imgs
 OUT=data
 
 ls "$BASE" | tail -n +1 | while read dir; do #org tail +14
