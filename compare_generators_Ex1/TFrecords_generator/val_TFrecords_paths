@@ -1,0 +1,5 @@
+./split_resized_TFrecords_dataset/val/val_shard_1.tfrecords
+./split_resized_TFrecords_dataset/val/val_shard_2.tfrecords
+./split_resized_TFrecords_dataset/val/val_shard_3.tfrecords
+./split_resized_TFrecords_dataset/val/val_shard_4.tfrecords
+./split_resized_TFrecords_dataset/val/val_shard_5.tfrecords

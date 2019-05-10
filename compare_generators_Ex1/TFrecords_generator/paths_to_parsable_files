@@ -1,0 +1,5 @@
+info_dataset: ./info_dataset
+dictionary: ./classes_dict
+train: ./train_TFrecords_paths
+val: ./val_TFrecords_paths
+test: ./test_TFrecords_paths

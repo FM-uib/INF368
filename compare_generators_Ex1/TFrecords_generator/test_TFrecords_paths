@@ -1,0 +1,5 @@
+./split_resized_TFrecords_dataset/test/test_shard_1.tfrecords
+./split_resized_TFrecords_dataset/test/test_shard_2.tfrecords
+./split_resized_TFrecords_dataset/test/test_shard_3.tfrecords
+./split_resized_TFrecords_dataset/test/test_shard_4.tfrecords
+./split_resized_TFrecords_dataset/test/test_shard_5.tfrecords
