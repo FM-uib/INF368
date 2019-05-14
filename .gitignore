@@ -16,6 +16,7 @@ Ex3/plankton_siamese/test
 Ex3/plankton_siamese/models
 Ex3/plankton_siamese/__pycache__
 Ex3/plankton_siamese/ZooScanSet
+Ex3/plankton_siamese/testing_data
 compare_generators_Ex1/TFrecords_generator/data
 compare_generators_Ex1/TFrecords_generator/split_resized_TFrecords_dataset
 *.log
