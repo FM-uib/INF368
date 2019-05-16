@@ -14,8 +14,11 @@ import config as C
 
 last = C.last
 
-def save_name(i):
-    return ('models/epoch_'+str(i)+'.model')
+def save_name(i, model=True):
+    if model:
+        return ('models/epoch_'+str(i)+'.model')
+    else:
+        return ('models/epoch_'+str(i)+'.h5')
 
 def log(s):
     with open(C.logfile, 'a') as f:
@@ -26,19 +29,18 @@ logger = CSVLogger(C.logfile, append=True, separator='\t')
 
 def train_step():
     model.fit_generator(
-        triplet_generator(C.batch_size, None, C.train_dir), steps_per_epoch=100, epochs=C.iterations,
+        triplet_generator(C.batch_size, None, C.train_dir), steps_per_epoch=1000, epochs=C.iterations,
         callbacks=[logger],
-        validation_data=triplet_generator(C.batch_size, None, C.val_dir), validation_steps=100)
+        validation_data=triplet_generator(C.batch_size, None, C.val_dir), validation_steps=1000)
 
 if last==0:
     log('Creating base network from scratch.')
     if not os.path.exists('models'):
         os.makedirs('models')
-        print(C.trivial)
-        if C.trivial:
-            base_model = create_trivial(in_dim)
-        else:
-            base_model = create_base_network(in_dim)
+    if C.trivial:
+        base_model = create_trivial(in_dim)
+    else:
+        base_model = create_base_network(in_dim)
 else:
     log('Loading model:'+save_name(last))
     base_model = load_model(save_name(last))
@@ -46,6 +48,8 @@ else:
 model = tripletize(base_model)
 model.compile(optimizer=SGD(lr=C.learn_rate, momentum=0.9),
               loss=alt_triplet_loss())
+
+#base_model.save("Base_model.model")
 
 def avg(x):
     return sum(x)/len(x)
@@ -55,31 +59,31 @@ cents = {}
 for v in vs:
     cents[v] = T.centroid(vs[v])
 
-for i in range(last+1, last+5): # last +11
-    log('Starting iteration '+str(i)+'/'+str(last+4)+' lr='+str(C.learn_rate)) # last +10
+for i in range(last+1, last+26): # last +11
+    #log('Starting iteration '+str(i)+'/'+str(last+25)+' lr='+str(C.learn_rate)) # last +10
     train_step()
     C.learn_rate = C.learn_rate * C.lr_decay
     base_model.save(save_name(i))
 
     vs = T.get_vectors(base_model, C.val_dir)
     c = T.count_nearest_centroid(vs)
-    log('Summarizing '+str(i))
-    with open('summarize.'+str(i)+'.log', 'w') as sumfile:
+    #log('Summarizing '+str(i))
+    with open('logs/summarize.'+str(i)+'.log', 'w') as sumfile:
         T.summarize(vs, outfile=sumfile)
-    with open('clusters.'+str(i)+'.log', 'w') as cfile:
+    with open('logs/clusters.'+str(i)+'.log', 'w') as cfile:
         T.confusion_counts(c, outfile=cfile)
     c_tmp = {}
     r_tmp = {}
-    for v in vs:
-        c_tmp[v] = T.centroid(vs[v])
-        r_tmp[v] = T.radius(c_tmp[v], vs[v])
-    c_rad = [round(100*r_tmp[v])/100 for v in vs]
-    c_mv = [round(100*T.dist(c_tmp[v],cents[v]))/100 for v in vs]
-    log('Centroid radius: '+str(c_rad))
-    log('Centroid moved: '+str(c_mv))
-    cents = c_tmp
+    #for v in vs:
+    #    c_tmp[v] = T.centroid(vs[v])
+    #    r_tmp[v] = T.radius(c_tmp[v], vs[v])
+    #c_rad = [round(100*r_tmp[v])/100 for v in vs]
+    #c_mv = [round(100*T.dist(c_tmp[v],cents[v]))/100 for v in vs]
+    #log('Centroid radius: '+str(c_rad))
+    #log('Centroid moved: '+str(c_mv))
+    #cents = c_tmp
 
     with open(C.logfile, 'a') as f:
         T.accuracy_counts(c, outfile=f)
     # todo: avg cluster radius, avg cluster distances
-    log('Avg centr rad: %.2f move: %.2f' % (avg(c_rad), avg(c_mv)))
+    #log('Avg centr rad: %.2f move: %.2f' % (avg(c_rad), avg(c_mv)))

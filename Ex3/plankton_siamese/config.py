@@ -1,13 +1,13 @@
 
-train_dir = 'train'
-val_dir   = 'validate'
-test_dir  = 'test'
+train_dir = 'data/train'
+val_dir   = 'data/validate'
+test_dir  = 'data/test'
 
 trivial = False
-batch_size = 20
-logfile    = 'train.log'
+batch_size = 10
+logfile    = 'logs/train.log'
 
 last       = 0
 learn_rate = 0.01
 lr_decay   = 0.9
-iterations = 5
+iterations = 10
