@@ -7,7 +7,7 @@ trivial = False
 batch_size = 10
 logfile    = 'logs/train.log'
 
-last       = 0
-learn_rate = 0.01
+last       = 20
+learn_rate = 0.001351
 lr_decay   = 0.9
 iterations = 10
